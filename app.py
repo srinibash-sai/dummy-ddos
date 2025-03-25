@@ -29,7 +29,11 @@ def init_db():
         default_users = [
             ('Alice', 'alice@example.com'),
             ('Bob', 'bob@example.com'),
-            ('Charlie', 'charlie@example.com')
+            ('Charlie2', 'charlie1@example.com'),
+            ('Charlie1', 'charlie2@example.com'),
+            ('Charlie3', 'charlie3@example.com'),
+            ('Charlie5', 'charlie4@example.com'),
+            ('Charlie6', 'charlie5@example.com')
         ]
         cursor.executemany('INSERT INTO users (name, email) VALUES (?, ?)', default_users)
 
