@@ -164,6 +164,8 @@ def request_count():
 
     return jsonify({"request_count": request_count})
 
+
+init_db()
 if __name__ == '__main__':
     # Initialize the database and insert default users
     init_db()
